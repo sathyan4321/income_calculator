@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Income Calculator</title>
+  <link rel="stylesheet" type="text/css" href="/calculator/income_calc.css">
+  <link rel="stylesheet" href="/calculator/income_calc.js">
+</head>
+<body>
+  <h1 style="text-align: center;">Income Calculator</h1><br><br>
+<div class="table" style="text-align: center;" >
+    <label for="hours">Hours Worked:</label><br>
+  <input type="number" id="hours" min="0"><br><br><br>
+
+  <label for="rate">Hourly Rate:</label><br>
+  <input type="number" id="rate" min="0"><br><br><br>
+
+  <button onclick="calculateIncome()">Calculate</button>
+</div>
+  
+
+  <h2 id="income" style="text-align: center;"></h2>
+
+  <script src="/calculator/income_calc.js"></script>
+</body>
+</html>
